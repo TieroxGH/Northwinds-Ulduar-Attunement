@@ -58,5 +58,5 @@ INSERT INTO `creature_questender` (`id`, `quest`) VALUES
 /* quest text */
 DELETE FROM `quest_request_items` WHERE (`ID` = 90000);
 INSERT INTO `quest_request_items` (`ID`, `EmoteOnComplete`, `EmoteOnIncomplete`, `CompletionText`, `VerifiedBuild`) VALUES
-(90000, 0, 0, 'Still nothin’, lad/lass. Any luck with the side routes?', 0);
+(90000, 0, 0, 'Still nothin’? Any luck with the side routes?', 0);
 
